@@ -1,0 +1,104 @@
+{
+  "users": {
+    "486645465094553600": {
+      "coins": 261,
+      "streak": 1,
+      "lastCheckin": "2025-12-11",
+      "checkinsTotal": 0,
+      "items": {
+        "shoutout": 1,
+        "roast": 18
+      },
+      "activeEffects": [],
+      "shoutoutsGiven": 8,
+      "shoutoutsReceived": 0,
+      "roastsGiven": 5,
+      "roastsReceived": 0,
+      "focusStats": {
+        "day": "2025-12-11",
+        "minutes": 5,
+        "coins": 0
+      }
+    },
+    "356076111215722496": {
+      "coins": 100,
+      "streak": 0,
+      "lastCheckin": null,
+      "checkinsTotal": 0,
+      "items": {},
+      "activeEffects": [],
+      "shoutoutsGiven": 0,
+      "shoutoutsReceived": 1,
+      "roastsGiven": 0,
+      "roastsReceived": 1,
+      "focusStats": {
+        "day": null,
+        "minutes": 0,
+        "coins": 0
+      }
+    },
+    "974205072688967740": {
+      "coins": 500,
+      "streak": 0,
+      "lastCheckin": null,
+      "checkinsTotal": 0,
+      "items": {},
+      "activeEffects": [],
+      "shoutoutsGiven": 0,
+      "shoutoutsReceived": 2,
+      "roastsGiven": 0,
+      "roastsReceived": 1,
+      "focusStats": {
+        "day": null,
+        "minutes": 0,
+        "coins": 0
+      }
+    }
+  },
+  "teams": {
+    "web-dev-test": {
+      "id": "web-dev-test",
+      "name": "Web Dev Test",
+      "description": "Front/Backend Projekte",
+      "createdBy": "486645465094553600",
+      "createdAt": "2025-12-11T14:52:35.280Z",
+      "members": [
+        "486645465094553600"
+      ]
+    }
+  },
+  "shop": {
+    "golden-dev": {
+      "id": "golden-dev",
+      "name": "Golden Dev",
+      "description": "Golden developer role for 24 hours.",
+      "cost": 200,
+      "type": "role",
+      "roleName": "Golden Dev",
+      "durationHours": 24
+    },
+    "shoutout": {
+      "id": "shoutout",
+      "name": "Shoutout",
+      "description": "A one-time shoutout for a person of your choice.",
+      "cost": 50,
+      "type": "usable",
+      "usableCommand": "shoutout"
+    },
+    "roast": {
+      "id": "roast",
+      "name": "Roast",
+      "description": "A friendly nerd roast from CommitGoblin.",
+      "cost": 50,
+      "type": "usable",
+      "usableCommand": "roast"
+    },
+    "raffle-ticket": {
+      "id": "raffle-ticket",
+      "name": "Raffle Ticket",
+      "description": "Ticket for future raffles.",
+      "cost": 25,
+      "type": "ticket"
+    }
+  }
+}
