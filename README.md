@@ -32,4 +32,4 @@ Minimal guide to run the Discord bot.
 - **Can I change the bot channel later?** Yes—update `COMMITGOBLIN_CHANNEL_ID` and restart.
 - **How do I persist data in Docker?** The compose file binds `./data.json` into `/app/data.json`.
 - **Which Node version?** Node 18+.
-- **What about permissions?** The bot needs scopes `bot` and `applications.commands` and permission to post in the bot channel.
+- **How do I create/invite the bot?** In the Discord Developer Portal: create an application → Bot → “Add Bot” → copy/reset the token (keep it secret) → enable *Message Content Intent* → OAuth2 URL Generator: scopes `bot` (and `applications.commands` if using slash commands), permissions: Read Messages, Send Messages, Use Slash Commands → open the generated URL to invite the bot to your server.
